@@ -1,1 +1,3 @@
-export const URL_BACK = import.meta.env.API;
+console.log(process.env.REACT_APP_SECRET);
+
+export const URL_BACK = process.env.REACT_APP_SECRET;
